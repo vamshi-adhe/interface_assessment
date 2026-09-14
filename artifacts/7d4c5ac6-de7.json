@@ -1,0 +1,69 @@
+{
+  "artifact_id": "7d4c5ac6-de7",
+  "version": "1.0",
+  "name": "look_up_member_given_param_and_read_their_savings_balance",
+  "description": "look up member_given_param  and read their savings balance",
+  "target_url": "http://localhost:5000",
+  "surface_type": "legacy_web",
+  "created_at": "2026-09-13T00:31:08.316499",
+  "status": "draft",
+  "input_params": {
+    "member_id": {
+      "name": "member_id",
+      "type": "string",
+      "description": "The member ID to look up",
+      "required": true
+    }
+  },
+  "output_schema": {},
+  "steps": [
+    {
+      "step_id": "853f5723",
+      "action": "type",
+      "locator": {
+        "primary": "name:member_id",
+        "fallbacks": [
+          "xpath=//*[@name='member_id']"
+        ],
+        "description": "Located by: name:member_id"
+      },
+      "value": "{{member_id}}",
+      "checkpoint": "input[type='submit']",
+      "risk": "safe",
+      "on_error": "retry",
+      "description": "Typing the member ID into the input field to initiate the lookup."
+    },
+    {
+      "step_id": "96652c57",
+      "action": "click",
+      "locator": {
+        "primary": "input[type='submit']",
+        "fallbacks": [],
+        "description": "Located by: input[type='submit']"
+      },
+      "value": "",
+      "checkpoint": null,
+      "risk": "safe",
+      "on_error": "retry",
+      "description": "Clicking the submit button to search for the member after typing the ID."
+    },
+    {
+      "step_id": "f05aa3cd",
+      "action": "read",
+      "locator": {
+        "primary": "text:Savings Balance",
+        "fallbacks": [],
+        "description": "Located by: text:Savings Balance"
+      },
+      "value": "",
+      "checkpoint": null,
+      "risk": "safe",
+      "on_error": "retry",
+      "description": "Reading the savings balance value associated with the Savings Balance label."
+    }
+  ],
+  "success_condition": {
+    "type": "url_contains",
+    "value": "/member/"
+  }
+}

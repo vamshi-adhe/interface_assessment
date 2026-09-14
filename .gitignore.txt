@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+venv/
+artifacts/*.json
+evidence/*
+!evidence/.gitkeep
+!artifacts/.gitkeep

@@ -1,0 +1,3 @@
+{"ts": "2026-09-13T00:07:43.586821+00:00", "run_id": "efe42b53-3e1", "mode": "discovery", "event": "discovery_start", "goal": "look up member 12345 and read their savings balance", "url": "http://localhost:5000"}
+{"ts": "2026-09-13T00:07:52.285032+00:00", "run_id": "efe42b53-3e1", "mode": "discovery", "event": "llm_error", "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"}
+{"ts": "2026-09-13T00:07:52.753727+00:00", "run_id": "efe42b53-3e1", "mode": "discovery", "event": "artifact_ready", "steps": 0}

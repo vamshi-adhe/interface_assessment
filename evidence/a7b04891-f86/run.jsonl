@@ -1,0 +1,3 @@
+{"ts": "2026-09-13T00:11:34.270829+00:00", "run_id": "a7b04891-f86", "mode": "discovery", "event": "discovery_start", "goal": "look up member 12345 and read their savings balance", "url": "http://localhost:5000"}
+{"ts": "2026-09-13T00:11:36.870443+00:00", "run_id": "a7b04891-f86", "mode": "discovery", "event": "llm_error", "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"}
+{"ts": "2026-09-13T00:11:37.316431+00:00", "run_id": "a7b04891-f86", "mode": "discovery", "event": "artifact_ready", "steps": 0}

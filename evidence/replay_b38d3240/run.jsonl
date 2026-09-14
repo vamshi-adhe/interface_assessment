@@ -1,0 +1,6 @@
+{"ts": "2026-09-13T00:49:14.616557+00:00", "run_id": "replay_b38d3240", "mode": "replay", "event": "replay_start", "artifact_id": "7d4c5ac6-de7", "artifact_name": "look_up_member_12345_and_read_their_savings_balance", "params": ["member_id"]}
+{"ts": "2026-09-13T00:49:16.050061+00:00", "run_id": "replay_b38d3240", "mode": "replay", "event": "step", "step_num": 1, "action": "type", "reason": "Typing the member ID into the input field to initiate the lookup."}
+{"ts": "2026-09-13T00:49:16.317868+00:00", "run_id": "replay_b38d3240", "mode": "replay", "event": "step", "step_num": 2, "action": "click", "reason": "Clicking the submit button to search for the member after typing the ID."}
+{"ts": "2026-09-13T00:49:17.387533+00:00", "run_id": "replay_b38d3240", "mode": "replay", "event": "checkpoint_skipped", "reason": "unsupported :contains() selector", "checkpoint": "h1:contains('Member Details')"}
+{"ts": "2026-09-13T00:49:17.552910+00:00", "run_id": "replay_b38d3240", "mode": "replay", "event": "step", "step_num": 3, "action": "read", "reason": "Reading the savings balance value associated with the 'Savings Balance' label."}
+{"ts": "2026-09-13T00:49:17.641372+00:00", "run_id": "replay_b38d3240", "mode": "replay", "event": "success"}

@@ -1,0 +1,4 @@
+{"ts": "2026-09-13T00:37:52.916764+00:00", "run_id": "replay_dbdd5afe", "mode": "replay", "event": "replay_start", "artifact_id": "7d4c5ac6-de7", "artifact_name": "look_up_member_12345_and_read_their_savings_balance", "params": ["member_id"]}
+{"ts": "2026-09-13T00:37:55.888131+00:00", "run_id": "replay_dbdd5afe", "mode": "replay", "event": "step", "step_num": 1, "action": "type", "reason": "Typing the member ID into the input field to initiate the lookup."}
+{"ts": "2026-09-13T00:37:56.617464+00:00", "run_id": "replay_dbdd5afe", "mode": "replay", "event": "step", "step_num": 2, "action": "click", "reason": "Clicking the submit button to search for the member after typing the ID."}
+{"ts": "2026-09-13T00:37:57.744810+00:00", "run_id": "replay_dbdd5afe", "mode": "replay", "event": "hard_failure", "step": 2, "error": "Checkpoint 'h1:contains('Member Details')' not found after step 2 (click)"}

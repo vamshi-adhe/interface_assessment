@@ -1,0 +1,4 @@
+{"ts": "2026-09-13T01:03:42.440919+00:00", "run_id": "replay_2b41cf46", "mode": "replay", "event": "replay_start", "artifact_id": "7d4c5ac6-de7", "artifact_name": "look_up_member_{{member_id}}_and_read_their_savings_balance", "params": ["member_id"]}
+{"ts": "2026-09-13T01:03:43.862613+00:00", "run_id": "replay_2b41cf46", "mode": "replay", "event": "step", "step_num": 1, "action": "type", "reason": "Typing the member ID into the input field to initiate the lookup."}
+{"ts": "2026-09-13T01:03:44.143157+00:00", "run_id": "replay_2b41cf46", "mode": "replay", "event": "step", "step_num": 2, "action": "click", "reason": "Clicking the submit button to search for the member after typing the ID."}
+{"ts": "2026-09-13T01:03:44.733326+00:00", "run_id": "replay_2b41cf46", "mode": "replay", "event": "business_outcome_detected", "outcome": "member_not_found", "step": 2}

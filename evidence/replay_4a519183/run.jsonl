@@ -1,0 +1,5 @@
+{"ts": "2026-09-13T01:04:06.293959+00:00", "run_id": "replay_4a519183", "mode": "replay", "event": "replay_start", "artifact_id": "7d4c5ac6-de7", "artifact_name": "look_up_member_given_param_and_read_their_savings_balance", "params": ["member_id"]}
+{"ts": "2026-09-13T01:04:07.683549+00:00", "run_id": "replay_4a519183", "mode": "replay", "event": "step", "step_num": 1, "action": "type", "reason": "Typing the member ID into the input field to initiate the lookup."}
+{"ts": "2026-09-13T01:04:07.940849+00:00", "run_id": "replay_4a519183", "mode": "replay", "event": "step", "step_num": 2, "action": "click", "reason": "Clicking the submit button to search for the member after typing the ID."}
+{"ts": "2026-09-13T01:04:08.889239+00:00", "run_id": "replay_4a519183", "mode": "replay", "event": "step", "step_num": 3, "action": "read", "reason": "Reading the savings balance value associated with the Savings Balance label."}
+{"ts": "2026-09-13T01:04:08.967041+00:00", "run_id": "replay_4a519183", "mode": "replay", "event": "success_condition_failed", "detail": "Success condition not met: url_contains = 'w/member/'"}

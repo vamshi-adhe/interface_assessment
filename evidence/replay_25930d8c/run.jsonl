@@ -1,0 +1,5 @@
+{"ts": "2026-09-13T01:09:19.324939+00:00", "run_id": "replay_25930d8c", "mode": "replay", "event": "replay_start", "artifact_id": "7d4c5ac6-de7", "artifact_name": "look_up_member_given_param_and_read_their_savings_balance", "params": ["member_id"]}
+{"ts": "2026-09-13T01:09:36.626998+00:00", "run_id": "replay_25930d8c", "mode": "replay", "event": "step", "step_num": 1, "action": "type", "reason": "Typing the member ID into the input field to initiate the lookup."}
+{"ts": "2026-09-13T01:09:36.900249+00:00", "run_id": "replay_25930d8c", "mode": "replay", "event": "step", "step_num": 2, "action": "click", "reason": "Clicking the submit button to search for the member after typing the ID."}
+{"ts": "2026-09-13T01:09:37.853801+00:00", "run_id": "replay_25930d8c", "mode": "replay", "event": "step", "step_num": 3, "action": "read", "reason": "Reading the savings balance value associated with the Savings Balance label."}
+{"ts": "2026-09-13T01:09:37.931148+00:00", "run_id": "replay_25930d8c", "mode": "replay", "event": "success"}
